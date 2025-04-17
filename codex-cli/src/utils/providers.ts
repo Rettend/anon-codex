@@ -38,5 +38,10 @@ export const providers: Record<string, { name: string, baseURL: string, envKey: 
     name: 'Groq',
     baseURL: 'https://api.groq.com/openai/v1',
     envKey: 'GROQ_API_KEY',
+  },
+  github: {
+    name: 'GitHub',
+    baseURL: 'https://models.github.ai/inference',
+    envKey: 'GITHUB_TOKEN',
   }
 }
